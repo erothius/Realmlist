@@ -18,7 +18,7 @@ def userinput():
     default = realmlists["warmane"]
     print("Default realmlist is : " + default)
     quest = input(
-        "Do you want to use the default realmlist ? If so, press Enter \n")
+        "Default = Enter \n")
 
     if quest == "":
         realmlist = realmlists["warmane"]
