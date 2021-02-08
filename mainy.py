@@ -16,16 +16,14 @@ def edit(realmlist):
 
 def userinput():
     default = realmlists["warmane"]
-    print("Default realmlist is : " + default)
-    quest = input(
-        "Default = Enter \n")
+    quest = input(f"Default {default} = Enter \n")
 
     if quest == "":
         realmlist = realmlists["warmane"]
-        edit(realmlist)
     else:
         realmlist = realmlists["whitemane"]
-        edit(realmlist)
+
+    edit(realmlist)
 
 
 def runexe():
